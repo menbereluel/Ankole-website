@@ -87,3 +87,37 @@ margin-top: 50%;
         color: rgb(197, 64, 3);
         font-size: 65px;
     }
+    @media screen and (max-width:500px){
+        .hidden{
+            display: none;
+        }
+      .singer{
+        display: flex;
+      }  
+      #live{
+     
+        font-size: 50px;
+      }
+      .performance{
+ margin-left: 10%;
+ margin-top: 30%;
+      }
+      #Tukatike{
+        font-size: 40px;
+ 
+    }
+    #performance-day{
+       color: rgb(43, 39, 39);
+        font-size: 15px;
+    }
+    #logo{
+        margin-top: 10%;
+            }
+            body{
+                overflow-x: hidden;
+            }
+            .main-page{
+               height: 107.5vh;
+            }
+            
+    }

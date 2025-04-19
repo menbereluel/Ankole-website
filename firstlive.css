@@ -45,3 +45,14 @@ color: white;
     background-color: darkgray;
     border-radius: 20px;
 }
+@media screen and (max-width:500px){
+    .hidden{
+        display: none;
+    }
+
+    body{
+        background-image: url(image/firstevent.jpg);
+        background-repeat: no-repeat;
+    height: 90vh;
+    }
+}
