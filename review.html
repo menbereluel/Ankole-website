@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+  <div>
+    <i class="fa-solid fa-quote-left" id="right-quote"></i>
+  </div>
+  <img src="image/ankolelogo-removebg-preview.png"id="logo">
+  <div class="icon">
+    <button id="display-left" onclick="plusDivs(-1)">&#10094;</button>
+     <button id="display-right" onclick="plusDivs(1)">&#10095;</button>
+   </div>
+    <div class="main-page">
+            <div class="slides"> 	
+             
+            <h2 > Reviews</h2><br><br>
+       <p>12/10!! The service was great, very polite staff. Ihad pork belly ribs and fries. They were exactly what I<br>
+        wanted. The portionsare big, I only managed to have 1/2 of my food.Their mutura is the best I've ever<br>
+        had.The mocktails were also very good.I'll definitely be back.<br><br>
+            Lynn Waweru<br>
+            KITISURU</p>
+         
+            </div>
+            <div class="slides">
+              
+                <h2 > Reviews</h2><br><br>
+            <p>The service at Ankole is stellar and the food isamazing. Even on a busy night, the waiters and waitresses are
+                 <br>able to handlethe pressure. The DJ does a great job of setting the mood with a diverseselection of old school<br> jams.
+                  If you're planning to go for a late dinner, getthere before 10pm because you'll find the kitchen closed.<br><br>
+            Michael Njogu<br>
+             KITISURU</p>
+          
+            </div>
+        <div class="slides"> 
+     
+            <h2 >Reviews</h2><br><br>
+            <p>Greatcocktails. I love the ambience. The food was superb. Beautiful garden. Goodstaff. Nice for a date or a
+             <br>group event. Many smaller spaces that flow intoeach other so never seems packed. The architect did a great 
+             <br>job.One of myfavorites. Definitely going back<br><br>
+            Sidney Chahonyo<br>
+            KITISURU</p>
+      
+        </div>
+        
+    </div>
+           
+                <div class ="navigation">
+                    <ul>
+                    <li><i class="fa-solid fa-bars"></i></li>
+                  <li>  <i class="fa-solid fa-clock"></i></li>
+                   <li> <a href="index.html"class="hidden">Home</a></li>
+                   <li>  <a href="menu.html"class="hidden">Menu</a></li>
+                   <li> <a href="review.html"class="hidden">Reviews</a></li>
+                   <li> <a href="event.html"class="hidden">Events</a></li>
+                   <li>  <a href="live.html"class="hidden">Live</a></li>
+                   <li>  <a href="contact.html"class="hidden">Contacts</a></li>
+                   <button type="button" id="reservation"><a href="reservation.html" >Reservation</a></button>
+                   </ul>
+                  </div> 
+                  <div>
+                    <i class="fa-solid fa-quote-right" id="left-quote"></i>
+                  </div>
+              
+
+
+           <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("slides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              x[slideIndex-1].style.display = "block";
+            }
+            </script>
+    </body>
+    </html>

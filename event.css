@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#pax{color:rgb(224, 180, 113)
+}
+body{
+    overflow: hidden;
+}
+#pavilion{
+    font-size: 15px;
+    color: #e7e7e0;
+}
+.accra{
+background: url('image/anokle\ accra.jpg');
+background-repeat: no-repeat;
+filter: brightness(0.5);
+text-align: center;
+color: hsl(0, 0%, 100%);
+background-size: cover;
+font-size: 25px;
+padding-top: 200px;
+height: 80vh;
+width: 64vh;
+}
+.nairobi{
+background: url('image/anokle\ niarobi.jpg');
+background-repeat: no-repeat;
+filter: brightness(0.5);
+background-size: cover;
+font-size: 25px;
+padding-top: 200px;
+text-align: center;
+height: 80vh;
+width: 64vh;
+color: hwb(0 98% 1%);
+
+}
+.zanzibar{
+background: url('image/anokle\ zanzibar.jpg');
+background-repeat: no-repeat;
+filter: brightness(0.5);
+text-align: center;
+height: 80vh;
+width: 64vh;
+color: hwb(0 98% 1%);
+background-size: cover;
+font-size: 25px;
+padding-top: 200px;
+}
+#logo{
+    position: absolute;
+    margin-top:-50%;
+    left:43%;
+   
+}
+
+.event{
+display: inline-flex;
+text-align: center;
+position: relative;
+}
+
+.text{
+    margin-top: 30%;
+}
+
+.navigation ul{
+    border: none;
+background-color: black;
+border-radius: 40px;
+padding:30px;
+margin-bottom: 1px;
+gap: 5%;
+display: flex;
+cursor: pointer;
+width: 40%;
+}
+.navigation{
+    position:absolute;
+    top:85%;
+   left: 30%;
+   width:100%;
+} 
+.navigation a{
+    color: azure;
+text-decoration: none;}
+
+.navigation ul li i{
+color: white;
+}
+    #reservation{
+        border: 2px;
+        padding: 20px;
+        background-color: darkgray;
+        border-radius: 20px;
+    }
+    .navigation a:hover{
+        padding: 5px;
+        background-color: rgb(160, 156, 156);
+    }
+    @media screen and (max-width:500px){
+body{
+    overflow: auto;
+}
+        .event{
+        display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+.hidden{
+    display: none;
+
+
+}
+.nairobi{
+    width: 100%;
+}
+#logo{
+    margin-top:-570%;
+    left:23%;
+   
+}
+.zanzibar{
+    width:100%
+}
+.accra{
+    width: 100%;
+}
+
+    }

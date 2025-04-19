@@ -1,0 +1,89 @@
+body{
+    overflow-x: hidden;
+}
+.main-page{
+    background-image: url(image/live-image.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 97.5vh;
+   position: relative;
+}
+
+.music{
+    margin-left: 20%;
+    position: fixed;
+}
+
+
+.performance{
+    margin-left: 60%;
+    display: block;
+    margin-top: -90vh;
+    position: absolute;
+   
+}
+
+
+.navigation ul{
+    border: none;
+background-color: black;
+border-radius: 40px;
+padding:30px;
+margin-bottom: 1px;
+gap: 5%;
+display: flex;
+cursor: pointer;
+width: 40%;
+}
+.navigation a:hover{
+    padding: 5px;
+    background-color: rgb(160, 156, 156);
+}
+
+.navigation{
+    position:absolute;
+    top:85%;
+   left: 20%;
+   width:100%;
+} 
+.navigation a{
+    color: azure;
+text-decoration: none;}
+
+.navigation ul li i{
+color: white;
+}
+    #reservation{
+        border: 2px;
+        padding: 20px;
+        background-color: darkgray;
+        border-radius: 20px;
+    }
+    #logo{
+margin-top: 50%;
+    }
+    #fadhile{
+        color: #ee540c;
+        font-size: 20px;
+    }
+    #performance-day{
+        color: white;
+        font-size: 35px;
+    }
+    .singer{
+        display: flex;
+        gap:3%;
+        img:hover{ transform: scale(1.2);}
+      
+    }
+    .date{
+        padding: 4%;
+    }
+    #Tukatike{
+        font-size: 80px;
+      color: white;
+    }
+    #live{
+        color: rgb(197, 64, 3);
+        font-size: 65px;
+    }

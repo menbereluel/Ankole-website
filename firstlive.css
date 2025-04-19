@@ -1,0 +1,47 @@
+body{
+    background-image: url(image/firstevent.jpg);
+    background-repeat: no-repeat;
+height: 190vh;
+}
+#title{
+    font-size: 50px;
+    margin-top:25% ;
+    margin-left: 40%;
+    color: white;
+}
+
+.navigation ul{
+    border: none;
+background-color: black;
+border-radius: 40px;
+padding:30px;
+margin-bottom: 1px;
+gap: 5%;
+display: flex;
+cursor: pointer;
+width: 40%;
+}
+.navigation{
+    position:absolute;
+    top:85%;
+   left: 30%;
+   width:100%;
+} 
+.navigation a{
+    color: azure;
+text-decoration: none;}
+
+.navigation ul li i{
+color: white;
+}
+
+.navigation a:hover{
+    padding: 5px;
+    background-color: rgb(160, 156, 156);
+}
+#reservation{
+    border: 2px;
+    padding: 20px;
+    background-color: darkgray;
+    border-radius: 20px;
+}

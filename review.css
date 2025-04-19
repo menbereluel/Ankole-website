@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-page{
+background-color: rgb(5, 5, 5);
+background-size: cover;
+width: 100%;
+position:relative
+
+}
+.slides{
+    position: relative;
+    width: 100%;
+    display: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    height:131vh;
+padding-top: 15%;
+    
+    }
+ 
+.icon {
+    
+    display: flex;
+    gap: 800px;
+    margin-top:30% ;
+    margin-left: 23%;
+    position: absolute;
+     z-index :2;
+  
+ 
+}
+.navigation ul{
+    list-style-type: none;
+    border: none;
+background-color: rgb(31, 30, 30);
+border-radius: 40px;
+padding:30px;
+margin-bottom: 1px;
+gap: 5%;
+display: flex;
+cursor: pointer;
+width: 40%;
+}
+.navigation{
+   
+    position:absolute;
+    top:85%;
+   left: 30%;
+   width:100%;
+} 
+.navigation a{
+    color: azure;
+text-decoration: none;}
+
+.navigation ul li i{
+color: white;
+}
+    #reservation{
+        border: 2px;
+        padding: 20px;
+        background-color: darkgray;
+        border-radius: 20px;
+    }
+#left-quote{
+color:rgb(218, 42, 42);
+font-size: 50px;
+top:45%;
+   left: 80%;
+
+  position: absolute;
+}
+#right-quote{
+    color: rgb(218, 42, 42);
+    margin-top:17%;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 19%; 
+    z-index:2;
+}
+#logo{
+    margin-top:2% ;
+    margin-left: 43%;
+    position: absolute;
+     z-index :2;
+}
+.navigation a:hover{
+    padding: 5px;
+    background-color: rgb(114, 111, 111);
+
+}
+
+@media screen and (max-width: 800px){
+
+    .slides{
+        padding-top: 200px;
+    }
+    .hidden{
+        display: none;
+    }
+
+.main-page{
+   overflow: hidden;
+    
+    }     
+    .icon {
+        gap: 290px;
+        margin-top:140%;
+        margin-left: 3%;
+    }
+ 
+    #logo{
+       
+        margin-left: 20%;
+       
+    }
+    #right-quote{
+        font-size: 30px;
+        margin-top: 230px;
+    }
+    #left-quote{
+        font-size: 30px;
+        margin-top: 180px;
+}
+}

@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.menu-kitisuru {
+    background: url(image/kitisuru-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.7);
+    height: 670px;
+    width: 100%;
+    color: white;
+   padding-left: 22%;
+    padding-top: 16%;
+    font-size: 30px;
+
+    a{
+        color:white;
+        text-decoration: none;
+        margin-top: 40%;
+    }
+}
+#karibu{
+    color:rgb(233, 87, 20);
+    margin-left: 14%;
+}
+.menu-kilimani {
+    background: url(image/kilimani-background.jpg);
+     background-repeat: no-repeat; 
+     background-size: cover;
+    filter: brightness(0.7);
+    height:670px;
+    width: 100%;
+    color: white;
+    padding-left: 22%;
+    padding-top: 16%;
+    font-size: 30px;
+
+    a{
+        color:white;
+        text-decoration: none;
+    
+    }
+}
+
+#discover{
+    color: rgb(233, 87, 20);
+    margin-left: 14%;
+}
+.menu{
+    display: flex;
+    position: relative; 
+    width: 100%;
+}
+
+.navigation ul{
+    border: none;
+background-color: black;
+border-radius: 40px;
+padding:30px;
+margin-bottom: 1px;
+gap: 5%;
+display: flex;
+cursor: pointer;
+width: 40%;
+}
+.navigation{
+    position:absolute;
+    top:85%;
+   left: 30%;
+   width:100%;
+} 
+.navigation a{
+    color: azure;
+text-decoration: none;}
+
+.navigation ul li i{
+color: white;
+}
+.logo{
+    margin-left: 42%;
+    top:6%;
+    position: absolute;
+}
+
+#reservation{
+    border-radius: 20px;
+    padding:5px;
+    border: 10px ;
+   
+    background-color: rgb(177, 174, 174);
+}
+.navigation a:hover{
+    padding: 5px;
+    background-color: rgb(160, 156, 156);
+}
+
+@media screen and (max-width:500px) {
+
+
+.menu{
+  flex-direction: column;
+}
+.navigation{
+    margin-top: 170%;
+    width:90%;
+}
+
+.logo{
+    margin-top: 70%;
+    margin-left:23%;
+
+}
+.hidden{
+    display: none;
+}
+}

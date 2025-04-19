@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankole</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  </head>
+  <body>
+    
+
+    <div class="slideshow-container">
+      <img src="image/ankolelogo-removebg-preview.png" id="logo">
+      <div class="mySlides fade">
+        <img src="image/anokle it self.jpg" id="img">
+        <div class="text">Welcome</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="image/ankole-discover.jpg" id="img">
+
+        <div class="text">Discover</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="image/anokle steak.jpg" id="img">
+
+        <div class="text">Exprience</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="image/anokle drink.jpg" id="img">
+
+        <div class="text">Taste</div>
+
+      </div>
+      <div class="mySlides fade">
+        <img src="image/anokle ingredient.jpg" id="img">
+
+        <div class="text">Savour</div>
+      </div>
+    </div>
+
+    <div class="navigation">
+      <ul>
+        <li><i class="fa-solid fa-bars"></i></li>
+        <li>  <i class="fa-solid fa-clock" class="hidden"></i></li>
+        <li> <a href="index.html"class="hidden">Home</a></li>
+        <li> <a href="menu.html"class="hidden">Menu</a></li>
+        <li> <a href="review.html"class="hidden">Reviews</a></li>
+        <li> <a href="event.html"class="hidden">Events</a></li>
+        <li> <a href="live.html"class="hidden">Live</a></li>
+        <li> <a href="contact.html"class="hidden">Contacts</a></li> 
+        <button type="button" id="reservation"><a href="reservation.html" >reservation</a></button>
+      </ul>
+    </div>
+    <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000);
+    }
+    </script>
+  </body>
+</html>

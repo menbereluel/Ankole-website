@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+}
+ .page{
+    display:flex;
+    line-height: 2;
+ }
+ 
+ 
+.main{
+    background: url(image/kitisuru-menu.jpg);
+    position: relative;
+    width:50%;
+    height:99.9vh;
+    font-size:50px;
+  color:#f0ffff;
+  align-items: center;
+}
+#kiti-text{
+    color: rgb(233, 87, 20);
+ 
+
+}
+.mena{
+    margin-left: 35%;
+}
+
+.nav { padding-left: 20%;
+
+ 
+
+
+   a { text-decoration: none; color: rgb(176, 185, 192);
+     font-size: 20px; 
+     margin-right: 30px;
+
+}
+
+}
+
+
+.drinks ul{
+    list-style-type: none;
+}
+.juice-drink{
+    display: flex;
+    gap:70%
+}
+.menu{
+    background-color: rgb(27, 27, 27);
+    width:50%;
+   
+}
+.list-tea{
+    display: flex;
+    gap:60%;
+}
+.list-tea ul{
+    font-size: 20px;
+}
+#breakfast{
+    color: rgb(233, 87, 20);
+}
+
+.list_food{
+    background-color: rgb(28, 29, 28);
+    width: 50%;
+    height: 92vh;
+    position: absolute;
+    color:white;
+    font-size: 20px;
+    margin-top: 2%;
+    list-style-type: none;
+    overflow: scroll;  
+    overflow-x: hidden;
+}
+
+.list_food ul{
+    list-style-type: none;
+}
+.align{
+    margin-left: 8%;
+}
+#soups{
+    color: rgb(233, 87, 20);}
+
+.navigation ul{
+    border: none;
+background-color: black;
+border-radius: 30px;
+list-style-type: none;
+margin-bottom: 20px;
+gap: 5%;
+display: flex;
+cursor: pointer;
+width: 185%;
+}
+.navigation{
+    position: absolute;
+ margin-top:35%;
+ left:20% 
+
+
+
+}  
+
+.navigation ul li i{
+    color: #ffffff;
+    font-size: 20px;
+    }
+ .navigation a{
+    color: #f0ffff;
+    text-decoration: none;
+    font-size: 16px;
+   
+} 
+.navigation a:hover{
+    padding: 5px;
+    background-color: rgb(160, 156, 156);
+}
+
+#juice{
+    color:rgb(233, 87, 20)
+}
+
+#reservation{
+    border-radius: 20px;
+    padding:5px;
+    border:2px ;
+
+    margin-top: 33px;
+       height:50px;
+    background-color: rgb(177, 174, 174);
+}
+#salad{
+    color: rgb(233, 87, 20);
+}
+.beef{
+    color:hsl(180, 100%, 97%);
+    display:flex;
+    gap: 5%;
+    img{ width:150px;
+    height:90px;} 
+}
+#tea{
+    color:rgb(233, 87, 20);
+} 
+@media screen and (max-width:500px){
+.page{
+    flex-direction: column;
+
+}
+.main{
+    width:100%;
+}
+
+.navigation{
+    width: 30%;
+    padding: 12px;
+    margin-top: 25%;
+  
+   
+}
+.menu{
+    width:100%;
+ 
+}
+.list_food{
+    width:100%;
+
+}
+.list-tea{
+    gap:80px
+}
+.hidden{
+    display: none;
+}
+.juice-drink{
+    gap:110px
+}
+#kiti-text{
+    font-size: 50px;
+}
+
+}
+

@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+    overflow-x: hidden;
+}
+.main-page{
+    display: flex;
+  width:100%;
+ 
+}
+#logo{
+    margin-left: 40%;
+}
+.reservation{
+    background: url(image/garden.jpg);
+    width:50%;
+    background-size: cover;
+    height:951px;
+    background-repeat: no-repeat;
+    color:aliceblue;
+}
+#karibu{
+
+    margin-left: 50%;
+    font-size: 35px;
+}
+
+.form{
+    background-color: black;
+    width: 50%;
+    height: 98.4vh;
+
+}
+.rese{
+    margin-top:2%;
+    margin-left:2%;
+    width:100%;
+    color:white;
+    font-size: 20px;
+}
+input{
+    padding: 20px 10px ;
+    width: 90%;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+}
+#reserve{
+    margin-left: 43%;
+    color:rgb(223, 93, 54);
+    font-size: 45px;
+}
+#submit{
+    background-color: rgb(201, 134, 83);
+    width: 93%;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+
+.navigation ul{
+    border: none;
+background-color: black;
+border-radius: 40px;
+padding:30px;
+margin-bottom: 1px;
+gap: 5%;
+display: flex;
+cursor: pointer;
+width: 40%;
+}
+.navigation{
+    position:absolute;
+    top:85%;
+   left: 30%;
+   width:100%;
+} 
+.navigation a{
+    color: azure;
+text-decoration: none;}
+
+.navigation ul li i{
+color: rgb(255, 255, 255);
+}
+
+#reservation{
+    border-radius: 20px;
+    padding:5px;
+    border: 10px ;
+   
+    background-color: rgb(177, 174, 174);
+}
+.navigation a:hover{
+    padding: 5px;
+    background-color: rgb(160, 156, 156);
+}
+
+@media screen and (max-width: 800px){
+    body{
+        overflow: hidden;
+    }
+    .main-page{
+        flex-direction: column;
+    }
+    .form{
+        width: 100%;
+    }
+    .reservation{
+        width:100%
+    }
+    .hidden{
+        display: none;
+    }
+    #reserve{
+        font-size:30px;
+    }
+
+#logo{
+    margin-left: 30%;
+}
+.rese{
+    margin-left: 3%;
+}
+
+}
