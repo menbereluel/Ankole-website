@@ -2,8 +2,6 @@ body{
     background-image: url(image/3rd.jpeg);
     background-size: cover;
     background-repeat: no-repeat; 
-   /* overflow-y: auto; */
-   /* overflow-x: hidden; */
 }
 #title{
     font-size: 50px;

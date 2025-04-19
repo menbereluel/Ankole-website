@@ -83,5 +83,11 @@ color: white;
         .hidden{
             display: none;
         }
+        .navigation{
+            position:absolute;
+            top:65%;
+           left: 30%;
+           width:100%;
+        }    
     }
     

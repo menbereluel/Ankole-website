@@ -1,11 +1,6 @@
 body{
     background-image: url(image/teamevent.jpg);
     height: 160vh;
-    /* width:40%; */
-    /* background-size: auto;
-    background-repeat: no-repeat; */
-   /* overflow-y: auto;
-   overflow-x: hidden; */
 }
 #title{
     font-size: 50px;
